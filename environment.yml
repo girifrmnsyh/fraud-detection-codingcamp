@@ -1,0 +1,17 @@
+name: bmlp_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn=1.7.0
+  - joblib
+  - nb_conda_kernels
+  - pip
+  - pip:
+      - yellowbrick
